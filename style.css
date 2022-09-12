@@ -1,0 +1,166 @@
+body {
+display: flex;
+flex-direction: column;
+margin: 0;
+min-height: 100vh;
+font-family: 'Roboto';
+}
+
+.top-section {
+    height: 250px;
+    background-color: #1f2937;
+    padding: 24px 250px 250px 250px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    width: 400px;
+    text-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 400px;
+    text-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-image {
+    height: 250px;
+    margin-left: auto;
+}
+
+.random-info {
+    display: flex;
+    padding: 24px 250px 100px 250px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 32px;
+}
+
+.info-card {
+    width: 200px;
+}
+
+.info-image {
+    width: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+.info-image-subtext {
+    text-align: center;
+    padding: 4px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 150px 350px 100px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    margin-bottom: 32px;
+}
+
+.quote-attribution {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: 32px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    background-color: #3882f6;
+    display: flex;
+    width: 1000px;
+    margin: 100px;
+    padding: 48px 64px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-title {
+    font-size: 28px;
+    color:#e5e7eb;
+    margin-left: 48px;
+}
+
+.action-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 48px
+}
+
+.action-button {
+    margin-left: auto;
+    margin-right: 48px;
+    border: 2px solid #e5e7eb;
+}
